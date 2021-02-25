@@ -20,6 +20,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4DE1624E25E840140021BCAE /* DummyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1624D25E840140021BCAE /* DummyTest.swift */; };
 		83126F87D939589184C46944E102B0BD /* Pods-ModularTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DBFF02A29C116BEE32C3014275235 /* Pods-ModularTest-dummy.m */; };
 		8D00879056ADA3953D28F264BB6D75A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F843248B77541D8D0AB1BD87D0C8763 /* Pods-ModularTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE026EE149032696F885E0E46464AF2 /* Pods-ModularTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 		2A52DE6AB13413E0EA2941FB4D6B5B7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		328BE9A9D64C38B7DE07A29AA3A9020E /* Pods_ModularTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE026EE149032696F885E0E46464AF2 /* Pods-ModularTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModularTest-umbrella.h"; sourceTree = "<group>"; };
+		4DE1624D25E840140021BCAE /* DummyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTest.swift; sourceTree = "<group>"; };
 		5FBDE69E6328BCBB46D3DE85AEA19622 /* Pods-ModularTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModularTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		70307CD54073AAFAC477AAA51FE51078 /* Pods-ModularTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModularTest.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -103,6 +105,7 @@
 		4DE1624A25E83F8F0021BCAE /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				4DE1624D25E840140021BCAE /* DummyTest.swift */,
 			);
 			name = Module;
 			path = DummyCore/Module;
@@ -213,6 +216,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					24B053B15210F959202CDFA403395D63 = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -248,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE1624E25E840140021BCAE /* DummyTest.swift in Sources */,
 				83126F87D939589184C46944E102B0BD /* Pods-ModularTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +296,7 @@
 			baseConfigurationReference = C3BFE3EB8C226FC9E093B34D4C015C41 /* Pods-ModularTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -313,6 +323,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -452,6 +464,7 @@
 			baseConfigurationReference = 70307CD54073AAFAC477AAA51FE51078 /* Pods-ModularTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -478,6 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
