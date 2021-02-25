@@ -8,6 +8,11 @@
 import Foundation
 
 public class DummyTest {
+    
+    public init() {
+        
+    }
+    
     public func test() {
         print("test")
     }
