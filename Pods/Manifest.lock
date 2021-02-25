@@ -1,0 +1,16 @@
+PODS:
+  - DummyCore (0.1.0)
+
+DEPENDENCIES:
+  - DummyCore (from `DevPods/DummyCore`)
+
+EXTERNAL SOURCES:
+  DummyCore:
+    :path: DevPods/DummyCore
+
+SPEC CHECKSUMS:
+  DummyCore: 965384507ee064dd90f26451ef5891ceb762cb27
+
+PODFILE CHECKSUM: 022122d6a8db6bde02def8dd894afab3acb2f74a
+
+COCOAPODS: 1.10.1

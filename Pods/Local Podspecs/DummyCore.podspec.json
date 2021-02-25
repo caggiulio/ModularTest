@@ -1,0 +1,23 @@
+{
+  "name": "DummyCore",
+  "version": "0.1.0",
+  "summary": "A short description of DummyCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caggiulio/DummyCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caggiulio": "nunziogiuliocaggegi"
+  },
+  "source": {
+    "git": "https://github.com/caggiulio/DummyCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "DummyCore/Module/**/*.{swift}",
+  "resources": "DummyCore/Module/**/*.{xcassets,json,storyboard,xib,xcdatamodeld}"
+}
