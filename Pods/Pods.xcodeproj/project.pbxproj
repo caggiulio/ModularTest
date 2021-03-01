@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D5EFD30EE1B6039F208F4EE058414FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D41188125ED365700781142 /* DummyTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D41188025ED365700781142 /* DummyTest2.swift */; };
 		622A6A238B668EFB3A18592264A31860 /* DummyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6737D35DEE77BF6F3D9DB5197641693 /* DummyTest.swift */; };
 		83126F87D939589184C46944E102B0BD /* Pods-ModularTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D355D02D6926971EAF41D903AFF2B0 /* Pods-ModularTest-dummy.m */; };
 		8D00879056ADA3953D28F264BB6D75A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -29,12 +30,13 @@
 /* Begin PBXFileReference section */
 		07A90D0A789DBA4D00A81059A7E4F6B9 /* DummyCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DummyCore-dummy.m"; sourceTree = "<group>"; };
 		0C20C13F5954D72976C49D68F89D9B68 /* Pods-ModularTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModularTest-Info.plist"; sourceTree = "<group>"; };
-		1C0C56454DEFDD56FC5050C6315CA53E /* DummyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DummyCore.framework; path = DummyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2025A99E2F2031D7CC1B4B78E58CEA4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1C0C56454DEFDD56FC5050C6315CA53E /* DummyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DummyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2025A99E2F2031D7CC1B4B78E58CEA4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		278E1E88A57FA5137D095C0A2178549A /* Pods-ModularTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModularTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		328BE9A9D64C38B7DE07A29AA3A9020E /* Pods_ModularTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ModularTest.framework; path = "Pods-ModularTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328BE9A9D64C38B7DE07A29AA3A9020E /* Pods_ModularTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AA9550246BDE6C0CAA4AB45A5A7374 /* DummyCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DummyCore.debug.xcconfig; sourceTree = "<group>"; };
-		5FAD602960E4FFFB7499A4FC023F2F2C /* DummyCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DummyCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D41188025ED365700781142 /* DummyTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTest2.swift; sourceTree = "<group>"; };
+		5FAD602960E4FFFB7499A4FC023F2F2C /* DummyCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DummyCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		643B02AE0C33BC38DA49ABA26F59C51F /* Pods-ModularTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModularTest.debug.xcconfig"; sourceTree = "<group>"; };
 		6456BDB4A6AE1C90EC2FDE6EFC53A148 /* Pods-ModularTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModularTest.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -42,12 +44,12 @@
 		90DAD09EC2FE9E8F61C5AAA64EA7BB6F /* Pods-ModularTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModularTest-umbrella.h"; sourceTree = "<group>"; };
 		95B54AA18D3F53B50B563E1AB20B799F /* DummyCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DummyCore-prefix.pch"; sourceTree = "<group>"; };
 		9C6D35EE974A869725D2E80021A373B9 /* DummyCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DummyCore.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A808591D5347CCBC84405B6289D9D7DA /* Pods-ModularTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModularTest-frameworks.sh"; sourceTree = "<group>"; };
 		A9A23E00BA998FBC44E090BFED769F47 /* DummyCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DummyCore.modulemap; sourceTree = "<group>"; };
 		D0D355D02D6926971EAF41D903AFF2B0 /* Pods-ModularTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModularTest-dummy.m"; sourceTree = "<group>"; };
 		D37F183FCCFBBE23B76BE41BA4F3A905 /* Pods-ModularTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ModularTest.modulemap"; sourceTree = "<group>"; };
-		D7B1D7B2C4D49F7647F60A13F678F784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7B1D7B2C4D49F7647F60A13F678F784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E8C4F120524DE1568718410F5CAAA0D8 /* Pods-ModularTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModularTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		F0D8BACC26FC62310A9878C5A7C9C79C /* DummyCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DummyCore-Info.plist"; sourceTree = "<group>"; };
 		F6737D35DEE77BF6F3D9DB5197641693 /* DummyTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DummyTest.swift; path = DummyCore/Module/DummyTest.swift; sourceTree = "<group>"; };
@@ -76,12 +78,22 @@
 		0E655E572E8E8451A3072D87025D4D17 /* DummyCore */ = {
 			isa = PBXGroup;
 			children = (
+				4DB1AC1B25ED622500D3321C /* Test */,
 				F6737D35DEE77BF6F3D9DB5197641693 /* DummyTest.swift */,
+				4D41188025ED365700781142 /* DummyTest2.swift */,
 				4FF406EF6DE56524198FE3AD6A9F9EA5 /* Pod */,
 				B250EA17E1C38DFD41CBA2C4468B1AB2 /* Support Files */,
 			);
 			name = DummyCore;
 			path = ../DevPods/DummyCore;
+			sourceTree = "<group>";
+		};
+		4DB1AC1B25ED622500D3321C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
+			path = DummyCore/Module/Test;
 			sourceTree = "<group>";
 		};
 		4FF406EF6DE56524198FE3AD6A9F9EA5 /* Pod */ = {
@@ -296,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7740D26F0D0262D791B819A3D5EA0A /* DummyCore-dummy.m in Sources */,
+				4D41188125ED365700781142 /* DummyTest2.swift in Sources */,
 				622A6A238B668EFB3A18592264A31860 /* DummyTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

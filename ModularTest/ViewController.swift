@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         
         let test = DummyTest()
         test.test()
+        
+        let test2 = DummyTest2()
+        test2.test2()
     }
 
 
