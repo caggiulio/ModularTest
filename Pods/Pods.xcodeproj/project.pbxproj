@@ -78,9 +78,9 @@
 		0E655E572E8E8451A3072D87025D4D17 /* DummyCore */ = {
 			isa = PBXGroup;
 			children = (
+				4DB1AC1C25ED627B00D3321C /* Test2 */,
 				4DB1AC1B25ED622500D3321C /* Test */,
 				F6737D35DEE77BF6F3D9DB5197641693 /* DummyTest.swift */,
-				4D41188025ED365700781142 /* DummyTest2.swift */,
 				4FF406EF6DE56524198FE3AD6A9F9EA5 /* Pod */,
 				B250EA17E1C38DFD41CBA2C4468B1AB2 /* Support Files */,
 			);
@@ -94,6 +94,14 @@
 			);
 			name = Test;
 			path = DummyCore/Module/Test;
+			sourceTree = "<group>";
+		};
+		4DB1AC1C25ED627B00D3321C /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+				4D41188025ED365700781142 /* DummyTest2.swift */,
+			);
+			path = Test2;
 			sourceTree = "<group>";
 		};
 		4FF406EF6DE56524198FE3AD6A9F9EA5 /* Pod */ = {
